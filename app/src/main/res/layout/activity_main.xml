@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:andriod="http://schemas.android.com/apk/res-auto"
+
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:text="Welcome to my Application"
+        android:layout_width="316dp"
+        android:id="@+id/textView"
+        android:textStyle="normal|bold"
+        android:textSize="30sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:textAlignment="center" />
+
+
+    <RelativeLayout
+        android:layout_width="380dp"
+        android:layout_height="260dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/target_container"
+        android:layout_weight="0.71" />
+
+    <Button
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:text="Enter"
+        android:layout_gravity="center|bottom"
+        android:id="@+id/btnNext"
+        android:onClick="playSound (MainActivity)" />
+    <Button
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:text="ok"
+        android:layout_gravity="center|bottom"
+        android:id="@+id/btnNext1"
+        android:onClick="playSound (MainActivity)" />
+
+
+
+</LinearLayout>
